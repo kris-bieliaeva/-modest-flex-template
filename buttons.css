@@ -1,0 +1,64 @@
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.common-btn {
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  flex: 0.4 1 100px;
+  font-family: "Quattrocento Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+
+.green-btn {
+  background-color: #23b7a4;
+}
+
+.green-btn:hover {
+  background-color: #32cab6;
+}
+
+.outline-btn {
+  border-color: #ffffff;
+}
+
+.outline-btn:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+@media (min-width: 345px) {
+  .buttons {
+    justify-content: flex-start;
+  }
+  .common-btn {
+    flex: 0 1 125px;
+    margin-right: 15px;
+  }
+}
+
+/* tablet - sm - */
+@media (min-width: 768px) {
+}
+
+/* laptop - md - */
+@media (min-width: 992px) {
+}
+
+/* desktop - lg - */
+@media (min-width: 1200px) {
+} ;

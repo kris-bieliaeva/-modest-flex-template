@@ -1,0 +1,101 @@
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.top-space {
+  margin-top: 40px;
+}
+
+/* Slider section */
+.slider {
+  background: url(images/slider1.png) no-repeat center;
+  background-size: cover;
+  height: 460px;
+  display: flex;
+  align-items: center;
+}
+
+/* About section */
+
+.about {
+  border-bottom: 2px solid #dde1e4;
+}
+.social-media-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 45px;
+}
+
+.social-media-box div {
+  width: 60px;
+  height: 60px;
+  background-color: #c8cdd0;
+  background-position: center;
+  margin: 1px;
+}
+
+.social-media-box div:hover {
+  background-color: #d0d5d9;
+  cursor: pointer;
+}
+
+.facebook {
+  background-image: url(images/facebook.png);
+}
+
+.twitter {
+  background-image: url(images/tweeter.png);
+}
+
+.google {
+  background-image: url(images/google.png);
+}
+
+.dribble {
+  background-image: url(images/dribble.png);
+}
+
+.behance {
+  background-image: url(images/behance.png);
+}
+
+.number-block {
+  display: flex;
+  margin-top: 20px;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #23b7a4;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* tablet - sm - */
+@media (min-width: 768px) {
+  section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+/* laptop - md - */
+@media (min-width: 992px) {
+  .top-space {
+    margin-top: 0px;
+  }
+}
+
+/* desktop - lg - */
+@media (min-width: 1200px) {
+  .slider {
+    height: 660px;
+  }
+} ;
