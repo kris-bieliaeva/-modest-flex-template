@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* tablet - sm - */
+@media (min-width: 768px) {
+  section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+/* laptop - md - */
+@media (min-width: 992px) {
+}
+
+/* desktop - lg - */
+@media (min-width: 1200px) {
+} ;
