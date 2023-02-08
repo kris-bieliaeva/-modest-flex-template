@@ -95,6 +95,105 @@ section {
   display: none;
 }
 
+/* Team */
+.team-main-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: flex-start;
+}
+
+.team-box:hover .overflow {
+  display: block;
+  cursor: pointer;
+}
+
+.team-box:hover .team-social-media {
+  display: flex;
+}
+
+.team-box:hover .team-text-box {
+  background-color: #3a454d;
+  cursor: pointer;
+}
+
+.team-box:hover .name {
+  color: #ffffff;
+}
+
+.team-box:hover .job {
+  color: #ffffff;
+}
+
+.img-block {
+  position: relative;
+}
+
+.overflow {
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 100%;
+  height: calc(100% - 2px);
+  position: absolute;
+  top: 0;
+  display: none;
+}
+
+.team-social-media {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  display: none;
+}
+
+.team-social-media div {
+  margin: 1px;
+  background-color: #3a454d;
+  width: 50px;
+  height: 50px;
+}
+
+.team-social-media div:hover {
+  background-color: #4e5a62;
+}
+
+.team-twitter {
+  background: url(images/tweeter2.png) no-repeat center;
+}
+
+.team-facebook {
+  background: url(images/facebook2.png) no-repeat center;
+}
+
+.team-linkedin {
+  background: url(images/linkedin.png) no-repeat center;
+}
+
+.team-text-box {
+  margin-top: -2px;
+  padding: 20px 27px;
+  background-color: #e1e6ea;
+}
+.name {
+  font-family: "Quattrocento Sans", sans-serif;
+  color: #292f36;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+
+.job {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Work */
+.work {
+  background-color: #3a454d;
+}
+
 /* tablet - sm - */
 @media (min-width: 768px) {
   section {
