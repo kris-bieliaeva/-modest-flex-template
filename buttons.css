@@ -12,6 +12,7 @@ button {
 .common-btn {
   height: 46px;
   display: flex;
+  padding: 0 20px;
   align-items: center;
   justify-content: center;
   margin: 20px 0;
@@ -46,7 +47,7 @@ button {
     justify-content: flex-start;
   }
   .common-btn {
-    flex: 0 1 125px;
+    flex: 0 1 100%;
     margin-right: 15px;
   }
 }
