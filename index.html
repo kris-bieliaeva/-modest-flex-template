@@ -15,24 +15,31 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="row">
-          <div class="logo col-xs-12 col-sm-2">
+        <div class="row header-mobile">
+          <div class="logo col-xs-6 col-sm-2">
             <a href="#"><img src="images/modest.png" alt="Modest logo" /></a>
           </div>
 
-          <nav class="col-xs-12 col-sm-7 col-md-8">
-            <ul class="menu">
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Work</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </nav>
+          <div class="col-xs-6 col-sm-7 col-md-8 nav-mobile">
+            <nav>
+              <ul class="menu navigation">
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+            <div class="nav-mobile-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
 
           <div class="col-sm-3 col-md-2">
             <form action="" class="search-bar">
@@ -155,7 +162,7 @@
       </section>
 
       <!-- Team -->
-      <section class="team">
+      <section class="team" id="about">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
@@ -500,5 +507,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="app.js"></script>
   </body>
 </html>
